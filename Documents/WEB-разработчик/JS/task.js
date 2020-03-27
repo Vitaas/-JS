@@ -14,12 +14,12 @@ function averageMark(a, g, p) {
     let average_assesment = (algebra + geography + physics) / 3;
     // реализуйте здесь задание №1
     
-  return 'Средняя оценка ученика: ' + average_assesment.toFixed(2); // ваш ответ;
+  return 'Средняя оценка ученика: ' + average_assesment; // ваш ответ;
   }
   
 function sayHello(userName) {
   const myName = 'Иван';
-  const message = 'Привет, мир! Меня зовут ' + myName;
+  const message = `Привет, мир! Меня зовут ${myName}`;
   // реализуйте здесь задание №2
   
 return message;// ваш ответ;
